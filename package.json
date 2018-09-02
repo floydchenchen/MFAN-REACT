@@ -17,6 +17,7 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",
     "react-sticky-footer": "0.1.0-rc3",
+    "react-vertical-timeline-component": "^2.1.5",
     "reactstrap": "^6.4.0"
   },
   "scripts": {
