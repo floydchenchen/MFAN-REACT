@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65307418-89b3-412e-b66b-5006b7f1f5a2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/MFANHistoryCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MFANHistoryYear.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TextTitle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/MFANHistory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/media/StrategicTeam/crichter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/media/history/history-2016-comprehensive-planning-success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/media/history/history-2016-equity-success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/media/history/history-2016-food-shelf-success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/media/history/history-comprehensive-planning-success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/media/history/history-equity-success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/media/history/history-food-shelf-success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/media/history/history-metro-community-meal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/media/history/history-mfan-bus-adventure.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/MeetTheStrategicTeam.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/MeetTheStrategicTeam.js" afterDir="false" />
-    </list>
+    <list default="true" id="65307418-89b3-412e-b66b-5006b7f1f5a2" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -39,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/src/containers/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="34" column="87" lean-forward="true" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="87" />
+              <caret line="34" column="87" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="87" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -50,8 +29,8 @@
       <file leaf-file-name="MFANHistory.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/MFANHistory.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="103" column="42" selection-start-line="103" selection-start-column="42" selection-end-line="103" selection-end-column="42" />
+            <state relative-caret-position="-51">
+              <caret line="100" column="104" lean-forward="true" selection-start-line="100" selection-start-column="104" selection-end-line="100" selection-end-column="104" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -75,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/src/containers/MeetTheStrategicTeam.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="311">
-              <caret line="86" column="82" lean-forward="true" selection-start-line="86" selection-start-column="82" selection-end-line="86" selection-end-column="82" />
+              <caret line="86" column="82" selection-start-line="86" selection-start-column="82" selection-end-line="86" selection-end-column="82" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -312,26 +291,25 @@
       <workItem from="1535751785161" duration="21000" />
       <workItem from="1535751834244" duration="10685000" />
       <workItem from="1535825833481" duration="4584000" />
-      <workItem from="1535909763214" duration="6853000" />
+      <workItem from="1535909763214" duration="7109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52698000" />
+    <option name="totallyTimeSpent" value="52954000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="24" y="27" width="1369" height="787" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4953917" visible="true" weight="0.22255193" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4953917" visible="true" weight="0.22255193" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21329212" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21329212" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="npm" order="2" sideWeight="0.5046083" side_tool="true" weight="0.24925816" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32921174" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32921174" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -656,7 +634,7 @@
     <entry file="file://$PROJECT_DIR$/src/containers/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="34" column="87" lean-forward="true" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="87" />
+          <caret line="34" column="87" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="87" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -666,7 +644,7 @@
     <entry file="file://$PROJECT_DIR$/src/containers/MeetTheStrategicTeam.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
-          <caret line="86" column="82" lean-forward="true" selection-start-line="86" selection-start-column="82" selection-end-line="86" selection-end-column="82" />
+          <caret line="86" column="82" selection-start-line="86" selection-start-column="82" selection-end-line="86" selection-end-column="82" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -705,8 +683,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/MFANHistory.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="103" column="42" selection-start-line="103" selection-start-column="42" selection-end-line="103" selection-end-column="42" />
+        <state relative-caret-position="-51">
+          <caret line="100" column="104" lean-forward="true" selection-start-line="100" selection-start-column="104" selection-end-line="100" selection-end-column="104" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
