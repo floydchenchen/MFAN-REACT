@@ -9,11 +9,8 @@
     "axios": "^0.18.0",
     "baguettebox.js": "^1.10.0",
     "bootstrap": "^4.1.3",
-<<<<<<< HEAD
     "moment": "^2.22.2",
-=======
     "gh-pages": "^1.2.0",
->>>>>>> 8d77af68e2d437c68c75e4a096ccc880c4a54a21
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-atlas": "^0.1.1",
