@@ -4,6 +4,7 @@ import BigCalendar from "react-big-calendar";
 import moment from "moment";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import request from 'superagent';
+import config from '../config';
 
 moment.locale("en");
 BigCalendar.momentLocalizer(moment);
@@ -12,10 +13,6 @@ BigCalendar.momentLocalizer(moment);
 const correctDateParser = (year, month, day) => {
   return new Date(year, month - 1, day)
 };
-
-const CALENDAR_API = "AIzaSyAErcdBD-gG6leR4fFJCuwi3v_sNpri7Ek";
-const CALENDAR_ID = "n1skith3o7mkp9harotpd909io@group.calendar.google.com";
-const URL = `https://www.googleapis.com/calendar/v3/calendars/${CALENDAR_ID}/events?key=${CALENDAR_API}`;
 
 const Event = ({ event }) => {
   return (
@@ -38,7 +35,7 @@ const EventAgenda = ({ event }) => {
 
 const getEvents = (callback) => {
   request
-    .get(URL)
+    .get(config.URL)
     .end((err, resp) => {
       if (!err) {
         const events = [];
