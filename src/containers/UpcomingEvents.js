@@ -1,5 +1,4 @@
 import React from 'react';
-import { withStyles } from '@material-ui/core/styles';
 import MFANEvent from '../components/MFANEvent';
 
 const styles = theme => ({});
