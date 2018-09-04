@@ -11,6 +11,7 @@ import MFANHistory from '../containers/MFANHistory';
 import EventsHistory from '../containers/EventsHistory';
 import UpcomingEvents from '../containers/UpcomingEvents';
 import Calendar from '../containers/Calendar';
+import WaysToPartnerWithMFAN from '../components/partners/WaysToPartnerWithMFAN';
 import 'react-vertical-timeline-component/style.min.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -39,6 +40,8 @@ class App extends Component {
             <Route exact path="/Events/EventsHistory"  render={ () => <EventsHistory />}/>
             <Route exact path="/Events/Calendar"  render={ () => <Calendar />}/>
             <Route exact path="/Events/UpcomingEvents"  render={ () => <UpcomingEvents />}/>
+
+            <Route exact path="/Partners/WaysToPartnerWithMFAN" component={WaysToPartnerWithMFAN} />
           </div>
           <Footer />
         </div>
