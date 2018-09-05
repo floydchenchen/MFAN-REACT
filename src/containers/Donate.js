@@ -4,7 +4,6 @@ import { Button } from 'react-atlas';
 import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import bigLogo from '../media/mfan-logo-600x600.png';
-import Typography from '@material-ui/core/Typography';
 import CustomCard from '../components/CustomCard';
 
 
