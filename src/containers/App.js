@@ -11,7 +11,7 @@ import MFANHistory from '../containers/MFANHistory';
 import Calendar from '../components/Calendar';
 import EventsHistory from '../containers/EventsHistory';
 import UpcomingEvents from '../containers/UpcomingEvents';
-import Blog from '../containers/Blog';
+import Blog from './Blog/Blog';
 import Donate from '../containers/Donate';
 import 'react-vertical-timeline-component/style.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
