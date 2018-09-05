@@ -12,6 +12,7 @@ import Calendar from '../components/Calendar';
 import EventsHistory from '../containers/EventsHistory';
 import UpcomingEvents from '../containers/UpcomingEvents';
 import Blog from '../containers/Blog';
+import Donate from '../containers/Donate';
 import 'react-vertical-timeline-component/style.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../node_modules/react-atlas/lib/atlasThemes.min.css';
@@ -39,8 +40,8 @@ class App extends Component {
             <Route exact path="/Events/EventsHistory"  render={ () => <EventsHistory />}/>
             <Route exact path="/Events/Calendar"  render={ () => <Calendar />}/>
             <Route exact path="/Events/UpcomingEvents"  render={ () => <UpcomingEvents />}/>
-            <Route exact path="/Donate"  render={ () => <p>donate</p>}/>
             <Route exact path="/Blog" render={ () => <Blog />} />
+            <Route exact path="/Donate"  render={ () => <Donate />}/>
           </div>
           <Footer />
         </div>

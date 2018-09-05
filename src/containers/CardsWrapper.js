@@ -9,7 +9,7 @@ const CardsWrapper = () => {
     <div style={{margin:"50px 0 50px 0"}}>
       <Grid container spacing={16} direction="row" justify="center" alignItems="center">
         <Grid item xs={10} sm={6}>
-          <Grid container spacing={16} direction="column" justify="center" alignItems="center">
+          <Grid container spacing={16} direction="column" justify="center" alignItems="flex-start">
             <CustomCard
               title="All Are Welcome"
               p="Anyone interested in advancing equitable access to healthy food in the seven-county metro region (and beyond!) are welcome to attend."
