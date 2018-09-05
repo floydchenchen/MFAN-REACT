@@ -21,7 +21,6 @@
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-atlas": "^0.1.2",
-    "react-atlas-with-form": "file:../../../Desktop/react-atlas-with-form",
     "react-big-calendar": "^0.19.2",
     "react-dom": "^16.4.1",
     "react-grid-gallery": "^0.5.1",
