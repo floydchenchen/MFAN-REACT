@@ -21,7 +21,7 @@ export default class Blog extends PureComponent {
       <Provider store={store}>
         <MuiThemeProvider>
           <Router>
-            <div>
+            <div className="container">
               {/* content */}
               <Switch>
                 <Route exact path="/Blog" component={PostListContainer} />
