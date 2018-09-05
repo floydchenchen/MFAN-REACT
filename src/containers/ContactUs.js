@@ -6,6 +6,8 @@ import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 
+const MAP_API_CONFIG = config.MAP_API || process.env.MAP_API;
+
 const styles = theme => ({
   verticalFlexbox: {
     display: "flex",
@@ -44,7 +46,7 @@ class ContactUs extends React.Component {
             width="100%"
             height="450"
             frameBorder="0" style={{border: 0}}
-            src={`https://www.google.com/maps/embed/v1/place?key=${config.MAP_API}&q=UROC,Minneapolis+MN`}
+            src={`https://www.google.com/maps/embed/v1/place?key=${MAP_API_CONFIG}&q=UROC,Minneapolis+MN`}
             allowFullScreen
           />
         </div>

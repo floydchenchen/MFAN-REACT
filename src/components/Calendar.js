@@ -6,6 +6,8 @@ import "react-big-calendar/lib/css/react-big-calendar.css";
 import request from 'superagent';
 import config from '../config';
 
+const URL_CONFIG = config.URL || process.env.URL;
+
 moment.locale("en");
 BigCalendar.momentLocalizer(moment);
 
@@ -35,7 +37,7 @@ const EventAgenda = ({ event }) => {
 
 const getEvents = (callback) => {
   request
-    .get(config.URL)
+    .get(URL_CONFIG)
     .end((err, resp) => {
       if (!err) {
         const events = [];
