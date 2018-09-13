@@ -11,7 +11,6 @@ import MFANHistory from '../containers/MFANHistory';
 import Calendar from '../components/Calendar';
 import EventsHistory from '../containers/EventsHistory';
 import UpcomingEvents from '../containers/UpcomingEvents';
-import Calendar from '../containers/Calendar';
 import WaysToPartnerWithMFAN from '../components/partners/WaysToPartnerWithMFAN';
 import ActionTeams from '../components/partners/ActionTeams';
 import StrategicTeam from '../components/partners/StrategicTeam';
@@ -59,7 +58,7 @@ class App extends Component {
               <Route exact path="/Partners/ActionTeams/RegulatoryActionTeam" component={RegulatoryActionTeam} />
             <Route exact path="/Partners/StrategicTeam" component={StrategicTeam} />
             <Route exact path="/Partners/PartnerDirectory" component={PartnerDirectory} />
-              
+
             <Route exact path="/Blog" render={ () => <Blog />} />
             <Route exact path="/Donate"  render={ () => <Donate />}/>
             <Route exact path="/ContactUs"  render={ () => <ContactUs />}/>
