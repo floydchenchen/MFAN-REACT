@@ -20,6 +20,11 @@ const styles = theme => ({
   nested: {
     paddingLeft: theme.spacing.unit * 4,
   },
+  link: {
+    '&:hover': {
+      textDecoration: 'none',
+    }
+  }
 });
 
 
@@ -73,7 +78,7 @@ class SideNav extends React.Component {
   handleNestedList = (item, subArray, urlPrefix) => {
     if (typeof item === "string") {
       return (
-        <Link to={urlPrefix + this.stringToUrl(item) + "/"} >
+        <Link className={this.props.classes.link} to={urlPrefix + this.stringToUrl(item) + "/"} >
           <ListItem button className={subArray ? this.props.classes.nested : null}>
             <ListItemText primary={item}/>
           </ListItem>

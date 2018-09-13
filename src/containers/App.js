@@ -11,6 +11,15 @@ import MFANHistory from '../containers/MFANHistory';
 import Calendar from '../components/Calendar';
 import EventsHistory from '../containers/EventsHistory';
 import UpcomingEvents from '../containers/UpcomingEvents';
+import Calendar from '../containers/Calendar';
+import WaysToPartnerWithMFAN from '../components/partners/WaysToPartnerWithMFAN';
+import ActionTeams from '../components/partners/ActionTeams';
+import StrategicTeam from '../components/partners/StrategicTeam';
+import PartnerDirectory from '../components/partners/PartnerDirectory';
+import LocalGovernmentActionTeam from '../components/partners/LocalGovernmentActionTeam';
+import EquityActionTeam from '../components/partners/EquityActionTeam';
+import RegulatoryActionTeam from '../components/partners/RegulatoryActionTeam';
+import 'react-vertical-timeline-component/style.min.css';
 import Blog from './Blog/Blog';
 import Donate from '../containers/Donate';
 import ContactUs from '../containers/ContactUs';
@@ -42,6 +51,15 @@ class App extends Component {
             <Route exact path="/Events/EventsHistory"  render={ () => <EventsHistory />}/>
             <Route exact path="/Events/Calendar"  render={ () => <Calendar />}/>
             <Route exact path="/Events/UpcomingEvents"  render={ () => <UpcomingEvents />}/>
+
+            <Route exact path="/Partners/WaysToPartnerWithMFAN" component={WaysToPartnerWithMFAN} />
+            <Route exact path="/Partners/ActionTeams" component={ActionTeams} />
+              <Route exact path="/Partners/ActionTeams/LocalGovernmentActionTeam" component={LocalGovernmentActionTeam} />
+              <Route exact path="/Partners/ActionTeams/EquityActionTeam" component={EquityActionTeam} />
+              <Route exact path="/Partners/ActionTeams/RegulatoryActionTeam" component={RegulatoryActionTeam} />
+            <Route exact path="/Partners/StrategicTeam" component={StrategicTeam} />
+            <Route exact path="/Partners/PartnerDirectory" component={PartnerDirectory} />
+              
             <Route exact path="/Blog" render={ () => <Blog />} />
             <Route exact path="/Donate"  render={ () => <Donate />}/>
             <Route exact path="/ContactUs"  render={ () => <ContactUs />}/>
