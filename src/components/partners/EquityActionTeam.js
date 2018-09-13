@@ -20,7 +20,7 @@ const styles = theme => ({
   },
   title: {
     textAlign: 'center',
-    fontSize: '33px',
+    fontSize: '38px',
     marginBottom: '50px',
     color: 'rgb(0, 48, 88)',
   },
@@ -172,7 +172,7 @@ class EquityActionTeam extends Component {
           </Grid>
         </Grid>
         <div className={classes.paragraph}>
-          <h2 className={classes.title}>2017 & 2018 SUCCESS</h2>
+          <h2 className={classes.title} style={{fontSize: '30px'}}>2017 & 2018 SUCCESS</h2>
           <div>
             MFAN hosted a series of six Critical Conversations on Race in the Food System.
             The series covered issues on communicating about race, White Supremacy Culture,
@@ -182,7 +182,7 @@ class EquityActionTeam extends Component {
         </div>
           <Divider />
         <div className={classes.paragraph}>
-          <h2 className={classes.title}>2016 SUCCESS</h2>
+          <h2 className={classes.title} style={{fontSize: '30px'}}>2016 SUCCESS</h2>
           <div>
             MFAN leveraged funding to support a part-time position to coordinate
             the MFAN Equity Action Team. Together the team provided recommendations

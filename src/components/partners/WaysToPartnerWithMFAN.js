@@ -17,7 +17,7 @@ const styles = theme => ({
   },
   title: {
     textAlign: 'center',
-    fontSize: '33px',
+    fontSize: '38px',
     marginBottom: '50px',
     color: 'rgb(0, 48, 88)',
   },

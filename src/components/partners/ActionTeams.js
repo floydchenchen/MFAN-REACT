@@ -19,7 +19,7 @@ const styles = theme => ({
   },
   title: {
     textAlign: 'center',
-    fontSize: '33px',
+    fontSize: '38px',
     marginBottom: '50px',
     color: 'rgb(0, 48, 88)',
   },
@@ -85,7 +85,7 @@ class ActionTeams extends Component {
 
     return (
       <div className={classes.paragraph}>
-        <div className={classes.title}>
+        <div className={classes.title} style={{fontSize: '30px'}}>
           {data.title}
         </div>
         <div className={classes.text}>

@@ -76,7 +76,9 @@ class StrategicTeam extends React.Component {
     return (
       <div>
         <div className="container" style={{marginTop:"20px"}}>
-          <TextTitle as="h3" content="Strategic Team" />
+          <div style={{textAlign: 'center', fontSize: '38px', marginBottom: '50px', color: 'rgb(0, 48, 88)',}}>
+            Strategic Team
+          </div>
           <div className="row">
             <div className="col-lg-10 mx-auto">
               <Text as="p" style={{fontSize:"large"}}>Anyone committed to advancing the mission of MFAN, attending quarterly meetings, and
