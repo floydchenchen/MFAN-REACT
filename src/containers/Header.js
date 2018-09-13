@@ -20,6 +20,11 @@ const styles = {
   fullList: {
     width: 'auto',
   },
+  link: {
+    '&:hover': {
+      textDecoration: 'none',
+    }
+  },
 };
 
 class Header extends React.Component {
@@ -59,7 +64,7 @@ class Header extends React.Component {
           <Typography variant="title" className={classes.flex} style={{flexGrow:"1", color:"white"}}>
             {this.props.title}
           </Typography>
-          <Link to="/ContactUs/">
+          <Link className={classes.link} to="/ContactUs/">
             <Button style={{color:"white"}}>Contact Us</Button>
           </Link>
           <Drawer open={this.state.left} onClose={this.toggleDrawer('left', false)}>
