@@ -8,6 +8,7 @@ import PictureGallery from '../containers/PictureGallery';
 import AboutUs from '../containers/AboutUs';
 import MeetTheStrategicTeam from '../containers/MeetTheStrategicTeam';
 import MFANHistory from '../containers/MFANHistory';
+import Calendar from '../components/Calendar';
 import EventsHistory from '../containers/EventsHistory';
 import UpcomingEvents from '../containers/UpcomingEvents';
 import Calendar from '../containers/Calendar';
@@ -19,8 +20,13 @@ import LocalGovernmentActionTeam from '../components/partners/LocalGovernmentAct
 import EquityActionTeam from '../components/partners/EquityActionTeam';
 import RegulatoryActionTeam from '../components/partners/RegulatoryActionTeam';
 import 'react-vertical-timeline-component/style.min.css';
+import Blog from './Blog/Blog';
+import Donate from '../containers/Donate';
+import ContactUs from '../containers/ContactUs';
 
+import 'react-vertical-timeline-component/style.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../../node_modules/react-atlas/lib/atlasThemes.min.css';
 
 class App extends Component {
   constructor(props) {
@@ -42,7 +48,6 @@ class App extends Component {
             <Route exact path="/AboutUs/MeettheStrategicTeam"  render={ () => <MeetTheStrategicTeam />}/>
             <Route exact path="/AboutUs/PictureGallery"  render={ () => <PictureGallery />}/>
             <Route exact path="/AboutUs/MFANHistory"  render={ () => <MFANHistory />}/>
-
             <Route exact path="/Events/EventsHistory"  render={ () => <EventsHistory />}/>
             <Route exact path="/Events/Calendar"  render={ () => <Calendar />}/>
             <Route exact path="/Events/UpcomingEvents"  render={ () => <UpcomingEvents />}/>
@@ -54,6 +59,10 @@ class App extends Component {
               <Route exact path="/Partners/ActionTeams/RegulatoryActionTeam" component={RegulatoryActionTeam} />
             <Route exact path="/Partners/StrategicTeam" component={StrategicTeam} />
             <Route exact path="/Partners/PartnerDirectory" component={PartnerDirectory} />
+              
+            <Route exact path="/Blog" render={ () => <Blog />} />
+            <Route exact path="/Donate"  render={ () => <Donate />}/>
+            <Route exact path="/ContactUs"  render={ () => <ContactUs />}/>
           </div>
           <Footer />
         </div>

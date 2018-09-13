@@ -52,7 +52,7 @@ class SideNav extends React.Component {
       "Home",
       {"About Us": ["About Us", "MFAN History", "Meet the Strategic Team", "Picture Gallery"]},
       {"Events": ["Upcoming Events", "Calendar", "Events History"]},
-      {"Partners": ["Ways to Partner with MFAN", "Action Teams", "Strategic Team", "Partner Directory"]},
+      {"Partners": ["Ways to Partner with MFAN", "Action Teams", "Partner Directory"]},
       {"Resources": ["Tools and Resources", "Critical Conversation on Race", "Equity in Policy Timeline"]},
       "Donate",
       "Blog",
