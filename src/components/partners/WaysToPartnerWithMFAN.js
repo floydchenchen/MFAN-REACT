@@ -102,7 +102,7 @@ class WaysToPartnerWithMFAN extends Component {
               title: 'Join the MFAN Strategic Team',
               text: 'The MFAN Strategic Team meets quarterly to discuss and determine short and long-term strategy for the network. Meetings are open to everyone.',
               img: require('../../media/Partners/ways-to-partner-strategic-team.jpeg'),
-              redirect: '/Partners/StrategicTeams',
+              redirect: '/Partners/StrategicTeam',
             })}
           </Grid>
         </Grid>
