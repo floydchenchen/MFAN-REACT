@@ -2,8 +2,8 @@
 ## Purpose
 A Web Development project to re-develop metrofoodaccess.com. I just started the demo version of the site and only the home page and the about-us page are available now.
 
-## Deployment
-https://mfan-react.herokuapp.com/
+## Static Deployment
+https://floydchenchen.github.io/MFAN-REACT/
 
 ## URL of the original site
 www.metrofoodaccess.com
