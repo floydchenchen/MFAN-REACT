@@ -80,6 +80,9 @@ const styles = theme => ({
       flexDirection: 'column',
       justifyContent: 'space-between',
     },
+    paragraph: {
+      margin: '10px',
+    }
   }
 });
 

@@ -43,6 +43,11 @@ const styles = theme => ({
   },
   paragraph: {
     margin: '50px 100px 50px 100px',
+  },
+  '@media (max-width: 918px)': {
+    paragraph: {
+      margin: '10px',
+    }
   }
 });
 
