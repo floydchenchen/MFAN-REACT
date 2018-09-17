@@ -36,7 +36,8 @@
     "redux": "^4.0.0",
     "redux-form": "^7.4.2",
     "redux-logger": "^3.0.6",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "superagent": "^3.8.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -45,8 +46,5 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-  },
-  "devDependencies": {
-    "superagent": "^3.8.3"
   }
 }

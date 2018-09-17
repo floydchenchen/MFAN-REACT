@@ -4,9 +4,8 @@ import BigCalendar from "react-big-calendar";
 import moment from "moment";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import request from 'superagent';
-import config from '../config';
 
-const URL_CONFIG = config.URL || process.env.URL;
+const URL_CONFIG = process.env.URL;
 
 moment.locale("en");
 BigCalendar.momentLocalizer(moment);
