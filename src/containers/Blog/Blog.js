@@ -20,7 +20,7 @@ export default class Blog extends PureComponent {
     return (
       <Provider store={store}>
         <MuiThemeProvider>
-          <Router>
+          <Router basename={process.env.PUBLIC_URL}>
             <div className="container">
               {/* content */}
               <Switch>
