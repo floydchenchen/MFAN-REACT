@@ -44,26 +44,26 @@ class App extends Component {
         <div className="app">
           <Header title={this.state.title} />
           <div className="main" style={{marginTop:"20px", marginBottom:"20px"}}>
-            <Route exact path={ PUBLIC_URL + "/"}  render={ () => <Main />}/>
-            <Route exact path={ PUBLIC_URL + "/AboutUs/AboutUs"}  render={ () => <AboutUs />}/>
-            <Route exact path={ PUBLIC_URL + "/AboutUs/MeettheStrategicTeam"}  render={ () => <MeetTheStrategicTeam />}/>
-            <Route exact path={ PUBLIC_URL + "/AboutUs/PictureGallery"}  render={ () => <PictureGallery />}/>
-            <Route exact path={ PUBLIC_URL + "/AboutUs/MFANHistory"}  render={ () => <MFANHistory />}/>
-            <Route exact path={ PUBLIC_URL + "/Events/EventsHistory"}  render={ () => <EventsHistory />}/>
-            <Route exact path={ PUBLIC_URL + "/Events/Calendar"}  render={ () => <Calendar />}/>
-            <Route exact path={ PUBLIC_URL + "/Events/UpcomingEvents"}  render={ () => <UpcomingEvents />}/>
+            <Route exact path="/"  render={ () => <Main />}/>
+            <Route exact path="/AboutUs/AboutUs"  render={ () => <AboutUs />}/>
+            <Route exact path="/AboutUs/MeettheStrategicTeam"  render={ () => <MeetTheStrategicTeam />}/>
+            <Route exact path="/AboutUs/PictureGallery"  render={ () => <PictureGallery />}/>
+            <Route exact path="/AboutUs/MFANHistory"  render={ () => <MFANHistory />}/>
+            <Route exact path="/Events/EventsHistory"  render={ () => <EventsHistory />}/>
+            <Route exact path="/Events/Calendar"  render={ () => <Calendar />}/>
+            <Route exact path="/Events/UpcomingEvents"  render={ () => <UpcomingEvents />}/>
 
-            <Route exact path={ PUBLIC_URL + "/Partners/WaysToPartnerWithMFAN"} component={WaysToPartnerWithMFAN} />
-            <Route exact path={ PUBLIC_URL + "/Partners/ActionTeams"} component={ActionTeams} />
-              <Route exact path={ PUBLIC_URL + "/Partners/ActionTeams/LocalGovernmentActionTeam"} component={LocalGovernmentActionTeam} />
-              <Route exact path={ PUBLIC_URL + "/Partners/ActionTeams/EquityActionTeam"} component={EquityActionTeam} />
-              <Route exact path={ PUBLIC_URL + "/Partners/ActionTeams/RegulatoryActionTeam"} component={RegulatoryActionTeam} />
-            <Route exact path={ PUBLIC_URL + "/Partners/StrategicTeam"} component={StrategicTeam} />
-            <Route exact path={ PUBLIC_URL + "/Partners/PartnerDirectory"} component={PartnerDirectory} />
+            <Route exact path="/Partners/WaysToPartnerWithMFAN" component={WaysToPartnerWithMFAN} />
+            <Route exact path="/Partners/ActionTeams" component={ActionTeams} />
+              <Route exact path="/Partners/ActionTeams/LocalGovernmentActionTeam" component={LocalGovernmentActionTeam} />
+              <Route exact path="/Partners/ActionTeams/EquityActionTeam" component={EquityActionTeam} />
+              <Route exact path="/Partners/ActionTeams/RegulatoryActionTeam" component={RegulatoryActionTeam} />
+            <Route exact path="/Partners/StrategicTeam" component={StrategicTeam} />
+            <Route exact path="/Partners/PartnerDirectory" component={PartnerDirectory} />
 
-            <Route exact path={ PUBLIC_URL + "/Blog"} render={ () => <Blog />} />
-            <Route exact path={ PUBLIC_URL + "/Donate"}  render={ () => <Donate />}/>
-            <Route exact path={ PUBLIC_URL + "/ContactUs"}  render={ () => <ContactUs />}/>
+            <Route exact path="/Blog" render={ () => <Blog />} />
+            <Route exact path="/Donate"  render={ () => <Donate />}/>
+            <Route exact path="/ContactUs"  render={ () => <ContactUs />}/>
           </div>
           <Footer />
         </div>
