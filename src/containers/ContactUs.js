@@ -5,7 +5,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 
-const MAP_API_CONFIG = AIzaSyAgLhhBKKdT811UpNUvGP_H9R3pQXSFa6A || process.env.MAP_API;
+const MAP_API_CONFIG = "AIzaSyAgLhhBKKdT811UpNUvGP_H9R3pQXSFa6A" || process.env.MAP_API;
 
 const styles = theme => ({
   verticalFlexbox: {
