@@ -5,7 +5,7 @@ import moment from "moment";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import request from 'superagent';
 
-const URL_CONFIG = process.env.URL;
+const URL_CONFIG = "https://www.googleapis.com/calendar/v3/calendars/n1skith3o7mkp9harotpd909io@group.calendar.google.com/events?key=AIzaSyAErcdBD-gG6leR4fFJCuwi3v_sNpri7Ek" || process.env.URL;
 
 moment.locale("en");
 BigCalendar.momentLocalizer(moment);
